@@ -1,0 +1,46 @@
+.palette-container {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 260px;
+  z-index: 200;
+}
+
+.palette-item {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  transition: border-color 0.2s;
+}
+
+.palette-item.no-bg {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.palette-item:hover {
+  border-color: #202124;
+}
+
+.palette-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 4px 0;
+}
