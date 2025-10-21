@@ -24,14 +24,15 @@
   background-size: cover;
   background-position: center;
   transition: border-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5f6368;
 }
 
 .palette-item.no-bg {
   background-color: transparent;
   border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .palette-item:hover {

@@ -1,7 +1,6 @@
 .notes-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 32px 16px;
 }
 
 .notes-grid {
@@ -27,7 +26,6 @@
 
 .notes-empty-text {
   font-size: 20px;
-  margin-top: 16px;
   font-weight: 400;
 }
 
@@ -45,19 +43,9 @@
   padding-left: 8px;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
   .notes-grid {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 12px;
-  }
-  .notes-container {
-    padding: 16px 12px;
-  }
-}
-
-@media (max-width: 480px) {
-  .notes-grid {
-    grid-template-columns: 1fr;
   }
 }
