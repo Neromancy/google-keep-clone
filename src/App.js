@@ -29,7 +29,7 @@ function App() {
       content: noteData.content,
       createdAt: new Date().toISOString(),
       pinned: false,
-      background: '#FFFFFF', // Properti background default
+      background: '#FFFFFF',
     };
     setNotes([newNote, ...notes]);
   };

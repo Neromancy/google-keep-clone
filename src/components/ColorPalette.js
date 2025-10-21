@@ -6,7 +6,7 @@ const colors = [
   '#A7FFEB', '#CBF0F8', '#AECBFA', '#D7AEFB', '#FDCFE8',
 ];
 
-// Sesuaikan nama file dengan gambar di folder public/images/ Anda
+// Sesuaikan nama file dengan gambar di folder public/images
 const images = [
   'foods.png',
   'music.png',
